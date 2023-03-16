@@ -68,3 +68,55 @@ input[type="text"] {
   color: #5aa75a;
   text-align: center;
 }
+.existing-contract {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.fields {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fields li {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.fields li div:first-child {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.button-pending {
+  background-color: #ffc107;
+}
+
+.button-complete {
+  background-color: #28a745;
+}
+
+.button:hover {
+  background-color: #0069d9;
+}
+
+.button:active {
+  background-color: #0053ba;
+}
+
